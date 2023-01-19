@@ -1,0 +1,251 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --pagetop-bcg-color: #ECECEC;
+    --herobot-bcg-color: #2F303A;
+    --team-background-color: #F5F4FA;
+    --button-background-color: #188CE8;
+    --bot-textnav-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--title-text-color);
+
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Шапка */
+
+.page-top {
+    background-color: var(--pagetop-bcg-color);
+}
+
+.logo {
+    color: var(--accent-text-color);
+    font-style: normal;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logot {
+    color: var(--black-color);
+}
+
+/* site-nav */
+.site-nav a {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+.page-top .activ-page {
+    color: var(--accent-text-color);
+}
+
+/* Ссылки и телефон */
+.auth-nav a {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.auth-nav .link-auth:hover,
+.auth-nav .link-auth:focus {
+    color: var(--accent-text-color);
+}
+
+/* ГЕРОЙ */
+.hero {
+    background-color: var(--herobot-bcg-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: var(--button-background-color);
+}
+
+/* Переваги */
+.features .features-title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Чим ми займаємося і Наша команда*/
+.work .work-title,
+.team .team-title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.work {
+    background-color: var(--white-color);
+}
+
+.team {
+    background-color: var(--team-background-color);
+}
+
+.team .team-member {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* футер */
+.page-bot {
+    background-color: var(--herobot-bcg-color);
+}
+
+.page-bot .bot-adress {
+    color: var(--white-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.page-bot .logot {
+    color: var(--white-color);
+}
+
+.page-bot a:hover,
+.page-bot a:focus {
+    color: var(--accent-text-color);
+}
+
+/* ПОРТФОЛИО нью пєйдж */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.baton {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.baton:hover, .baton:focus {
+    background-color: var(--accent-text-color);
+    color: var(--white-color);
+}
+
+.portfolio-title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.page-bot .bot-nav {
+    color: var(--bot-textnav-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* .portfol-p p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+} */
