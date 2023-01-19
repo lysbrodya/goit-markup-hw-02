@@ -4,7 +4,6 @@
     --accent-text-color: #2196F3;
     --white-color: #ffffff;
     --black-color: #000000;
-    --pagetop-bcg-color: #ECECEC;
     --herobot-bcg-color: #2F303A;
     --team-background-color: #F5F4FA;
     --button-background-color: #188CE8;
@@ -31,11 +30,7 @@ ul {
     list-style: none;
 }
 
-/* Шапка */
-
-.page-top {
-    background-color: var(--pagetop-bcg-color);
-}
+/* Капелюх */
 
 .logo {
     color: var(--accent-text-color);
